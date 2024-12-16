@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" style="height: 30px;">
+            </a>
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="book.html">Book appointment</a></li>
+                <li class="nav-item"><a class="nav-link" href="PharmacySam.html">Pharmacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div class="appointment-form">
+            <h5>Book an Appointment</h5>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="service">Select service:</label>
+                    <select id="service">
+                        <option selected>Select a service</option>
+                        <option value="1">Service 1</option>
+                        <option value="2">Service 2</option>
+                        <option value="3">Service 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="doctor">Select doctor:</label>
+                    <select id="doctor">
+                        <option selected>Select a doctor</option>
+                        <option value="1">Doctor 1</option>
+                        <option value="2">Doctor 2</option>
+                        <option value="3">Doctor 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

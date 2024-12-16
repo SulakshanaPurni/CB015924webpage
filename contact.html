@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" style="height: 30px;">
+            </a>
+            <ul class="navbar-links">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+                <li class="nav-item"><a class="nav-link" href="book.html">Book appointment</a></li>
+                <li class="nav-item"><a class="nav-link" href="PharmacySam.html">Pharmacy</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+    
+        <!-- Flexbox container for the form and contact details/map -->
+        <div class="contact-section">
+            <!-- Contact Form Section (on the left side) -->
+            <div class="form-container">
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Note:</label>
+                        <textarea id="note" name="note" required></textarea>
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+    
+            <!-- Contact Details & Map Section (on the right side) -->
+            <div class="contact-details-map">
+                <!-- Map Section -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d788.7861357139751!2d145.02181306961126!3d-37.73975309824963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDQ0JzIzLjEiUyAxNDXCsDAxJzIwLjgiRQ!5e0!3m2!1sen!2slk!4v1725360170994!5m2!1sen!2slk" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+    
+                <!-- Business Details Section -->
+                <div class="business-details">
+                    <h3>SERENE HOSPITALS PVT LTD</h3>
+                    <p><strong>Contact Number:</strong> +123 456 7890</p>
+                    <p><strong>Email:</strong> info@serenehospitals.com</p>
+                    <p><strong>Location:</strong> 123 Main Street, City Name, Country</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container">
+                <span>&copy; SERENE HOSPITALS PVT LTD</span>
+            </div> 
+        </div>
+    </footer>
+</body>
+</html>
